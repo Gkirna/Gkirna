@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'poppins',sans-serif;
+}
+body{
+  
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+  overflow: hidden;
+}
+.remember{
+  color: #fff;
+}
+.shi{
+a:link, a:visited {
+    width:100%;
+    background-color: #480d09;
+    color: rgb(251, 248, 67);
+    padding: 15px 716px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.6;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: red;
+  }
+}
+  /* Container holding the image and the text */
+  body, html {
+    height: 90.5%;
+    width:99.5%;
+    
+  }
+  .full{
+    background-image: url("https://w0.peakpx.com/wallpaper/354/606/HD-wallpaper-trippy-art-red-shark-trippy.jpg");
+  }
+
+
+  
+  
+
+
+  .bg-img {
+    /* The image used */
+    background-image: url("https://w0.peakpx.com/wallpaper/354/606/HD-wallpaper-trippy-art-red-shark-trippy.jpg");
+    background-size:cover;
+  
+    /* Control the height of the image */
+    min-height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+  }
+  .bg-img {
+     h1{
+    color: #ff0000;
+  }
+  b{
+    color: #000000;
+  }
+}
+.remember{
+  color: #da1111;
+}
+.remember:hover{
+  color: rgb(24, 177, 29);
+  
+}
+  /* Add styles to the form container */
+  .container {
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    right: 1;
+    margin: 150px 150px 0px 600px;
+    max-width: 305px;
+    padding: 16px;
+    background-color: rgb(241, 233, 142);
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0 22px 0;
+    
+    color: #3bfa51;
+    border: none;
+    opacity: 0.4;
+    background: #000000;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #3bfa51;
+    opacity: 1;
+    color:#000;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #6c0101;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .unl{ margin-right: 550px;
+    margin-left: 550px;
+    transition:step-start;
+  ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding-left: 55px;
+    overflow: hidden;
+    background-color: #930707;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    text-align: center;
+    display: block;
+    color: white;
+    text-decoration-style: dotted;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #da1111;
+  }
+}
